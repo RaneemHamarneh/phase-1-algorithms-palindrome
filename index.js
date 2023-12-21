@@ -1,9 +1,16 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  firstSplitingWord =word.split('');
+  reverseWord = firstSplitingWord.reverse().join('')
+ return word === reverseWord ;
 }
 
 /* 
   Add your pseudocode here
+  1- spliting all letter by space
+  2- then reverse the order of letters
+  3- join it 
+  4- compare between the original word and reverse word 
 */
 
 /*
